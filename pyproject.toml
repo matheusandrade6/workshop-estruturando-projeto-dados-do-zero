@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "workshop-estruturando-projeto-dados-do-zero"
+version = "0.1.0"
+description = "meu projeto de etl"
+authors = ["devmatheus0 <92046361+devmatheus0@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
